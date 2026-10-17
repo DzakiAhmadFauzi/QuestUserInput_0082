@@ -96,3 +96,17 @@ fun FormDataDiri(modifier: Modifier = Modifier) {
             color = Color.DarkGray
         )
 
+        Button(
+            modifier = Modifier.fillMaxWidth(),
+            enabled = textNama.isNotBlank() &&
+                    textAlamat.isNotBlank() &&
+                    textJK.isNotBlank(),
+            onClick = {
+                nama = textNama
+                jenis = textJK
+                alamat = textAlamat
+            }
+        ) {
+            Text(text = "Submit")
+        }
+
