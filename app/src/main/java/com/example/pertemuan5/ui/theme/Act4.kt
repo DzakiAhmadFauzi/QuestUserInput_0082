@@ -43,3 +43,10 @@ fun FormDataDiri(modifier: Modifier = Modifier) {
 
     val gender = listOf("Laki-laki", "Perempuan")
 
+    Column(
+        modifier = modifier
+            .fillMaxWidth()
+            .padding(top = 50.dp),
+        verticalArrangement = Arrangement.Top,
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
