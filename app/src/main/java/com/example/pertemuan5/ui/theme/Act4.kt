@@ -33,3 +33,4 @@ import com.example.pertemuan5.R
 @Composable
 fun FormDataDiri(modifier: Modifier = Modifier) {
 
+    var textNama by remember { mutableStateOf("") }
