@@ -87,3 +87,12 @@ fun FormDataDiri(modifier: Modifier = Modifier) {
             label = { Text(text = "Alamat") }
         )
 
+        Divider(
+            modifier = Modifier.padding(
+                top = dimensionResource(R.dimen.padding_medium),
+                bottom = dimensionResource(R.dimen.padding_medium)
+            ),
+            thickness = dimensionResource(R.dimen.divider_tipis),
+            color = Color.DarkGray
+        )
+
