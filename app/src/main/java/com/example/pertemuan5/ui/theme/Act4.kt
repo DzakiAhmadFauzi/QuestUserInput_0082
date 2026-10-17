@@ -30,3 +30,6 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.pertemuan5.R
 
+@Composable
+fun FormDataDiri(modifier: Modifier = Modifier) {
+
